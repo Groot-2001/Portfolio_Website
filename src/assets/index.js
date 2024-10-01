@@ -41,6 +41,9 @@ import pastebin_icon from "./pastebin_icon.png";
 import musicplayer_icon from "./musicplayer_icon.png";
 import funchat_icon from "./funchat_icon.png";
 import blog_icon from "./blog_icon.png";
+import changelog_icon from "./changelog_icon.png";
+import omagleclone_icon from "./omagleclone_icon.png";
+import ChatApp_icon from "./ChatApp_icon.png";
 
 export {
   shiva,
@@ -82,4 +85,7 @@ export {
   pastebin_icon,
   musicplayer_icon,
   blog_icon,
+  changelog_icon,
+  omagleclone_icon,
+  ChatApp_icon,
 };

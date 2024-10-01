@@ -31,6 +31,9 @@ import {
   codecollab_icon,
   funchat_icon,
   blog_icon,
+  changelog_icon,
+  omagleclone_icon,
+  ChatApp_icon,
 } from "../assets";
 
 export const navLinks = [
@@ -346,6 +349,72 @@ const projects = [
     image: blog_icon,
     source_code_link:
       "https://github.com/Groot-2001/BlogEggs",
+  },
+  {
+    name: "ChangeLog",
+    description:
+      "A changelog is a log or record of all notable changes made to a project. The project is often a website or software project, and the changelog usually includes records of changes such as bug fixes, new features, etc. ",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: changelog_icon,
+    source_code_link:
+      "https://github.com/Groot-2001/ChangeLog",
+  },
+  {
+    name: "Omegle-Clone",
+    description:
+      "Omegle is an online chat platform that connects a user with random strangers from all around the world. After login, the app pairs the user with a ”Stranger” based on shared subjects of interest. They can chat together privately through text, video, or using a built-in microphone.",
+    tags: [
+      {
+        name: "Nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "WebSocket",
+        color: "green-text-gradient",
+      },
+      {
+        name: "WebRTC",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: omagleclone_icon,
+    source_code_link:
+      "https://github.com/Groot-2001/Omagle_Clone",
+  },
+  {
+    name: "ChatApp",
+    description:
+      "Chat applications allow you to stay connected with other people who may be using the application even on the other side of the world. ",
+    tags: [
+      {
+        name: "Nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ExpressJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Reactjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ChatApp_icon,
+    source_code_link:
+      "https://github.com/Groot-2001/ChatApp",
   },
 ];
 
