@@ -40,6 +40,7 @@ import movie_icon from "./movie_icon.png";
 import pastebin_icon from "./pastebin_icon.png";
 import musicplayer_icon from "./musicplayer_icon.png";
 import funchat_icon from "./funchat_icon.png";
+import blog_icon from "./blog_icon.png";
 
 export {
   shiva,
@@ -80,4 +81,5 @@ export {
   movie_icon,
   pastebin_icon,
   musicplayer_icon,
+  blog_icon,
 };

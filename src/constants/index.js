@@ -30,6 +30,7 @@ import {
   movie_icon,
   codecollab_icon,
   funchat_icon,
+  blog_icon,
 } from "../assets";
 
 export const navLinks = [
@@ -323,6 +324,28 @@ const projects = [
     image: funchat_icon,
     source_code_link:
       "https://github.com/Groot-2001/Social-meadia-app",
+  },
+  {
+    name: "BlogEggs",
+    description:
+      "BlogEggs is an blog web application which is responsible to creating different blog articles.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redis",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: blog_icon,
+    source_code_link:
+      "https://github.com/Groot-2001/BlogEggs",
   },
 ];
 
