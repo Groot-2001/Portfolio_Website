@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles"
 import { navLinks } from "../constants";
-import { shiva, menu, close } from "../assets";
+import { shiva, menu, close, Resume } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -27,6 +27,13 @@ const Navbar = () => {
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
+          <li
+            key={1025}
+            className={`text-secondary
+            hover:text-white text-[18px]
+            font-medium cursor-pointer
+            `}
+          ><a href={Resume} download>Resume</a></li>
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -49,6 +56,13 @@ const Navbar = () => {
 
           <div className={`${!toggle ? 'hidden' : 'flex'} p-6 bg-cyan-950 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
             <ul className="list-none flex justify-end items-start flex-col gap-4">
+              <li
+                key={1025}
+                className={`
+          hover:text-white text-[16px]
+          font-medium font-poppins cursor-pointer
+          `}
+              ><a href={Resume} download>Resume</a></li>
               {navLinks.map((link) => (
                 <li
                   key={link.id}

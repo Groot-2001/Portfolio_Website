@@ -44,6 +44,7 @@ import blog_icon from "./blog_icon.png";
 import changelog_icon from "./changelog_icon.png";
 import omagleclone_icon from "./omagleclone_icon.png";
 import ChatApp_icon from "./ChatApp_icon.png";
+import Resume from "./Resume.pdf";
 
 export {
   shiva,
@@ -88,4 +89,5 @@ export {
   changelog_icon,
   omagleclone_icon,
   ChatApp_icon,
+  Resume,
 };
