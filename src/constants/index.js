@@ -34,6 +34,8 @@ import {
   changelog_icon,
   omagleclone_icon,
   ChatApp_icon,
+  newsapp_icon,
+  resume_parser_icon,
   fixerra
 } from "../assets";
 
@@ -185,6 +187,74 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Headless News Platform",
+    description:
+      "A modern SEO-optimized news platform built with Next.js 16, TypeScript, Tailwind CSS, and Headless WordPress. The application features dynamic article pages, categories, tags, authors, search, pagination, structured SEO metadata, Open Graph, Twitter Cards, JSON-LD, dynamic sitemap generation, responsive design, and a scalable service-based architecture using the WordPress REST API.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "WordPress",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "REST API",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "SEO",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: newsapp_icon,
+    source_code_link:
+      "https://github.com/Groot-2001/news-platform",
+  },
+  {
+    name: "AI Resume Parser",
+    description:
+      "An AI-powered Resume Parser that extracts structured information from PDF and DOCX resumes using Node.js, Express, MongoDB, and React. The application features secure file uploads, resume preview, contact, skills, education, and experience extraction, a modern analysis dashboard, dynamic routing, REST APIs, and a scalable architecture for future ATS scoring, keyword matching, and AI-powered resume insights.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Multer",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "REST API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: resume_parser_icon,
+    source_code_link:
+      "https://github.com/Groot-2001/resume-parser",
+  },
   {
     name: "Movie-Reservation-System",
     description:

@@ -36,15 +36,17 @@ import Html_Cert from "./Html_and_Css_Cert.png";
 import JS_Cert from "./JavaScript_Cert.png";
 import ResponsiveDesign_Cert from "./Responsive_Design_Cert.png";
 
-import codecollab_icon from "./codecollab_icon.png";
-import movie_icon from "./movie_icon.png";
-import pastebin_icon from "./pastebin_icon.png";
-import musicplayer_icon from "./musicplayer_icon.png";
-import funchat_icon from "./funchat_icon.png";
-import blog_icon from "./blog_icon.png";
-import changelog_icon from "./changelog_icon.png";
-import omagleclone_icon from "./omagleclone_icon.png";
-import ChatApp_icon from "./ChatApp_icon.png";
+import codecollab_icon from "./projects/codecollab_icon.png";
+import movie_icon from "./projects/movie_icon.png";
+import pastebin_icon from "./projects/pastebin_icon.png";
+import musicplayer_icon from "./projects/musicplayer_icon.png";
+import funchat_icon from "./projects/funchat_icon.png";
+import blog_icon from "./projects/blog_icon.png";
+import changelog_icon from "./projects/changelog_icon.png";
+import omagleclone_icon from "./projects/omagleclone_icon.png";
+import ChatApp_icon from "./projects/ChatApp_icon.png";
+import newsapp_icon from "./projects/news-platform.png";
+import resume_parser_icon from "./projects/resume-parser.png";
 import Resume from "./Resume.pdf";
 
 export {
@@ -91,5 +93,7 @@ export {
   changelog_icon,
   omagleclone_icon,
   ChatApp_icon,
+  newsapp_icon,
+  resume_parser_icon,
   Resume,
 };
