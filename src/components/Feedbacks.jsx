@@ -34,9 +34,9 @@ const Feedbacks = () => {
                     data-original="#000000" />
                 </svg>
               </div>
-              <a href="mailto:shivasilmawal841@gmail.com" className="text-sm ml-4">
+              <a href="mailto:shivasilmawala841@gmail.com" className="text-sm ml-4">
                 <small className="block">Mail</small>
-                <strong>shivasilmawal841@gmail.com</strong>
+                <strong>shivasilmawala841@gmail.com</strong>
               </a>
             </li>
           </ul>

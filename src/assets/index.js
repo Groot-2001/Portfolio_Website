@@ -28,6 +28,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import fixerra from "./company/fixedinvest_logo.jpg";
 
 import BackendImg from "./Backend_Cert.png";
 import DSA_Cert from "./DSA_Cert.png";
@@ -75,6 +76,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  fixerra,
   BackendImg,
   DSA_Cert,
   Html_Cert,
